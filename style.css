@@ -1,0 +1,77 @@
+.carousel-item img{
+    width: 100%;
+    height:100vh;
+}
+body{
+    font-family: 'Comfortaa', cursive;
+    /* font-weight: bold; */
+    /* font-size: 120%; */
+}
+a:hover{
+    color:red;
+    
+}
+.aboutimg{
+    height: 90%;
+    
+}
+.carousel-caption{
+    margin-bottom: 17%;
+    font-size: 150%;
+}
+// X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) { ... }
+
+.card{
+    width: 80%;
+    height: 100%;
+}
+.navbar{
+    font-weight: bold;
+}
+.section{
+    background-color:#c8dbfa;
+    
+}
+.radio{
+display:flex;
+
+}
+#male{
+    margin-left: 50px;
+    
+    }
+    #female{
+        margin-left: 300px;
+        
+        }
+        #other{
+            margin-left: 380px;
+            
+            }
+            #btnn{
+                margin-left: 20px;
+                margin-bottom: 20px;
+                background-color: brown;
+                border: 2px solid;
+                outline: cornsilk;
+            }
+ .contact{
+     background-color: blanchedalmond;
+     margin-bottom: 30px;
+ }           
